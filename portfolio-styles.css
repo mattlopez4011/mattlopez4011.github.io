@@ -1,0 +1,8 @@
+html{
+    height: 100%;
+    background: radial-gradient(ellipse at bottom, #1B2735 0%, #000000 100%);
+    overflow: hidden;
+}
+body{
+    color: white;
+}

@@ -2,7 +2,7 @@
 .large-header {
     position: relative;
     width: 100%;
-    background: #333;
+    /*background: #333;*/
     overflow: hidden;
     background-size: cover;
     background-position: center center;
@@ -10,7 +10,9 @@
 }
 
 #large-header {
-    background-image: url('https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/img/demo-1-bg.jpg');
+    /*background-image: url('https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/img/demo-1-bg.jpg');*/
+    background-image: url("img/moonToEarthView_burned-3.png");
+    filter: contrast(95%);
 }
 
 .main-title {

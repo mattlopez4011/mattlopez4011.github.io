@@ -7,7 +7,7 @@ body{
 }
 
 main{
-    display: flex;
+    /*display: flex;*/
     width: 100vw;
     height: 100vh;
 
@@ -27,4 +27,96 @@ main{
     height: 100vh;
     padding: 0;
 
+}
+
+.avatar-img{
+    border-radius: 125px;
+    position: absolute;
+    top: 10%;
+    left: 64%;
+
+}
+
+.greeting{
+    color: whitesmoke;
+    font-family: 'Audiowide', cursive;
+    position: absolute;
+    top: 18%;
+    left: 0;
+    right: 37%;
+    /*color: #FFF;*/
+    text-align: center;
+    font-weight: 300;
+    font-size: 50px;
+    letter-spacing: 10px;
+    margin-top: -60px;
+    padding-left: 10px;
+}
+
+.glow{
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00008b, 0 0 40px #00008b, 0 0 50px #00008b, 0 0 60px #00008b, 0 0 70px #00008b;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #3E92CC, 0 0 40px #3E92CC, 0 0 50px #3E92CC, 0 0 60px #3E92CC, 0 0 70px #3E92CC, 0 0 80px #3E92CC;
+    }
+}
+
+.aboutMe-btn{
+    z-index: 1;
+   position: absolute;
+    /*top: 25%;*/
+    bottom: 12%;
+    left: 6%;
+    /*right: 0;*/
+    /*color: #FFF;*/
+    text-align: center;
+    font-weight: 300;
+    font-size: 50px;
+    letter-spacing: 10px;
+    margin-top: -60px;
+    padding-left: 10px;
+}
+
+.skills-btn{
+    z-index: 1;
+    position: absolute;
+    /*top: 45%;*/
+    bottom: 5%;
+    left: 28%;
+    /*right: 0;*/
+    text-align: center;
+    margin-top: -60px;
+    padding-left: 10px;
+}
+
+.portfolio-btn{
+    z-index: 1;
+    position: absolute;
+    /*top: 75%;*/
+    bottom: 5%;
+    /*left: 29%;*/
+    right: 7%;
+    text-align: center;
+    margin-top: -60px;
+    padding-left: 10px;
+}
+
+.contact-btn{
+    z-index: 1;
+    position: absolute;
+    /*top: 15%;*/
+    bottom: 12%;
+    left: 51%;
+    /*right: 0;*/
+    text-align: center;
+    margin-top: -60px;
+    padding-left: 10px;
 }
