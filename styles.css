@@ -120,3 +120,72 @@ main{
     margin-top: -60px;
     padding-left: 10px;
 }
+
+.btn-aboutMe{
+    z-index: 2;
+    color: #92D9EC;
+    position: absolute;
+    bottom: 14.2%;
+    left: 9.7%;
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 1px 0;
+    background: #466E74;
+    border-radius: 25px;
+
+}
+
+.btn-skills{
+    z-index: 2;
+    color: #92D9EC;
+    position: absolute;
+    bottom: 7%;
+    left: 32.5%;
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 1px 0;
+    background: #466E74;
+    border-radius: 25px;
+
+}
+
+.btn-contact{
+    z-index: 2;
+    color: #92D9EC;
+    position: absolute;
+    bottom: 14.1%;
+    right: 33.9%;
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 1px 0;
+    background: #466E74;
+    border-radius: 25px;
+
+}
+
+.btn-portfolio{
+    z-index: 2;
+    color: #92D9EC;
+    position: absolute;
+    bottom: 7.1%;
+    right: 9.5%;
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 1px 0;
+    background: #466E74;
+    border-radius: 25px;
+
+}
+
+.fa-chevron-left, .fa-chevron-right{
+    color: #92D9EC;
+    font-size: 1.2em;
+}
