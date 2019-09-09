@@ -204,7 +204,7 @@ main{
     align-items: center;
     /*background: yellow;*/
     width: 100%;
-    height: 9%;
+    height: 12%;
     z-index: 1;
     position: absolute;
     bottom: 5%;
@@ -221,3 +221,33 @@ main{
     height: 80px;
 }
 
+/*Shuttle Styles*/
+.fa-space-shuttle{
+    /*transform: rotate(-90deg) !important;*/
+    transition: transform .8s ease-in-out;
+    transform: rotate(-90deg) translateX(180px);
+    font-size: 60px;
+    color: whitesmoke;
+    height: 58px;
+    width: 80px;
+    position: relative;
+    bottom: 12px;
+    display: inline-block;
+    /*animation: mymove 1s ;*/
+}
+
+
+/* Standard syntax */
+/*@keyframes mymove {*/
+/*    from {transform: rotate(270deg)}*/
+/*    to {transform: rotate(-90deg)}*/
+/*}*/
+
+/*Div with button & rocket*/
+.btn-rocket-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
