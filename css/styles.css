@@ -37,13 +37,20 @@ main{
 
 }
 
-.greeting{
-    color: whitesmoke;
-    font-family: 'Audiowide', cursive;
+.greetingText{
     position: absolute;
     top: 18%;
     left: 0;
     right: 37%;
+}
+
+.greeting{
+    color: whitesmoke;
+    font-family: 'Audiowide', cursive;
+    /*position: absolute;*/
+    /*top: 18%;*/
+    /*left: 0;*/
+    /*right: 37%;*/
     /*color: #FFF;*/
     text-align: center;
     font-weight: 300;
@@ -70,63 +77,64 @@ main{
 }
 
 .aboutMe-btn{
-    z-index: 1;
-   position: absolute;
+    /*z-index: 1;*/
+   /*position: absolute;*/
     /*top: 25%;*/
-    bottom: 12%;
-    left: 6%;
+    /*bottom: 12%;*/
+    /*left: 6%;*/
     /*right: 0;*/
     /*color: #FFF;*/
-    text-align: center;
+    /*text-align: center;*/
     font-weight: 300;
     font-size: 50px;
     letter-spacing: 10px;
-    margin-top: -60px;
-    padding-left: 10px;
+    /*margin-top: -60px;*/
+
 }
 
 .skills-btn{
-    z-index: 1;
-    position: absolute;
+    /*z-index: 1;*/
+    /*position: absolute;*/
     /*top: 45%;*/
-    bottom: 5%;
-    left: 28%;
+    /*bottom: 5%;*/
+    /*left: 28%;*/
     /*right: 0;*/
-    text-align: center;
-    margin-top: -60px;
-    padding-left: 10px;
+    /*text-align: center;*/
+    /*margin-top: -60px;*/
+
 }
 
 .portfolio-btn{
-    z-index: 1;
-    position: absolute;
+    /*z-index: 1;*/
+    /*position: absolute;*/
     /*top: 75%;*/
-    bottom: 5%;
-    /*left: 29%;*/
-    right: 7%;
-    text-align: center;
-    margin-top: -60px;
-    padding-left: 10px;
+    /*bottom: 5%;*/
+    /*!*left: 29%;*!*/
+    /*right: 7%;*/
+    /*text-align: center;*/
+    /*margin-top: -60px;*/
+
 }
 
 .contact-btn{
-    z-index: 1;
-    position: absolute;
+    /*z-index: 1;*/
+    /*position: absolute;*/
     /*top: 15%;*/
-    bottom: 12%;
-    left: 51%;
-    /*right: 0;*/
-    text-align: center;
-    margin-top: -60px;
-    padding-left: 10px;
+    /*bottom: 12%;*/
+    /*left: 51%;*/
+    /*!*right: 0;*!*/
+    /*text-align: center;*/
+    /*margin-top: -60px;*/
+
 }
 
 .btn-aboutMe{
-    z-index: 2;
+    display: inline-block;
+    /*z-index: 2;*/
     color: #92D9EC;
-    position: absolute;
-    bottom: 14.2%;
-    left: 9.7%;
+    position: relative;
+    bottom: 61%;
+    /*left: 0%;*/
     text-align: center;
     font-family: 'Audiowide', cursive;
     font-size: 1.2em;
@@ -138,12 +146,12 @@ main{
 }
 
 .btn-skills{
-    z-index: 2;
+    /*z-index: 2;*/
     color: #92D9EC;
-    position: absolute;
-    bottom: 7%;
-    left: 32.5%;
-    text-align: center;
+    position: relative;
+    bottom: 61%;
+    /*left: 32.5%;*/
+    /*text-align: center;*/
     font-family: 'Audiowide', cursive;
     font-size: 1.2em;
     margin: 0;
@@ -154,12 +162,12 @@ main{
 }
 
 .btn-contact{
-    z-index: 2;
+    /*z-index: 2;*/
     color: #92D9EC;
-    position: absolute;
-    bottom: 14.1%;
-    right: 33.9%;
-    text-align: center;
+    position: relative;
+    bottom: 61%;
+    /*right: 33.9%;*/
+    /*text-align: center;*/
     font-family: 'Audiowide', cursive;
     font-size: 1.2em;
     margin: 0;
@@ -170,12 +178,12 @@ main{
 }
 
 .btn-portfolio{
-    z-index: 2;
+    /*z-index: 2;*/
     color: #92D9EC;
-    position: absolute;
-    bottom: 7.1%;
-    right: 9.5%;
-    text-align: center;
+    position: relative;
+    bottom: 61%;
+    /*right: 9.5%;*/
+    /*text-align: center;*/
     font-family: 'Audiowide', cursive;
     font-size: 1.2em;
     margin: 0;
@@ -194,14 +202,22 @@ main{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background: greenyellow;
+    /*background: yellow;*/
+    width: 100%;
+    height: 9%;
+    z-index: 1;
+    position: absolute;
+    bottom: 5%;
 }
 
 .aboutme-box, .skills-box, .contact-box, .portfolio-box {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    /*justify-content: center;*/
     align-items: center;
-    background: olive;
-    z-index: 2;
+    /*background: hotpink;*/
+    /*z-index: 2;*/
+    width: 240px;
+    height: 80px;
 }
 

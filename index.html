@@ -12,71 +12,84 @@
     <link href='https://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
 <!--    Modernizr library-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
-<!--    Stars galaxy styles-->
-    <link rel="stylesheet" href="stars-styles.css">
+<!--Compass Mixins CDN Stylesheet-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/compass-mixins@0.12.10/lib/_compass.scss">
+    <!--    Stars galaxy 2 Added more stars for larger screens  styles-->
+    <link rel="stylesheet" href="css/stars-styles2.css">
 <!--    External CSS Animated abstract -->
     <link rel="stylesheet" href="https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/css/demo.css">
-    <link rel="stylesheet" href="animated-abstract.css">
+    <link rel="stylesheet" href="css/animated-abstract.css">
 <!--    Font Awesome icons CDN-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+<!--    Animate.css stylesheet-->
+    <link rel="stylesheet" href="css/animate.css">
+<!--    Hover.css Stylesheet-->
+    <link rel="stylesheet" href="css/hover.css/css/hover-min.css">
 <!--    My custom styles-->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
 
 <main>
-<!--    Left Section-->
-<!--    <section class="left-section">-->
+<!--Background Star Div's-->
     <div id="star"></div>
     <div id="stars2"></div>
     <div id="stars3"></div>
-
-        <div id="large-header" class="large-header">
+<!--        Abstract animation and earth view from moon pic-->
+        <div id="large-header" class="large-header animated fadeIn delay-1s slower ">
             <canvas id="demo-canvas"></canvas>
 <!--            <h1 class="main-title">Matt <span class="thin">Lopez</span></h1>-->
-            <h1 class="greeting glow">
+        </div>
+<!--        Glowing h1 text-->
+        <div class="greetingText animated bounceInLeft delay-2s slower">
+            <h2 class="greeting glow ">
                 Hello World <br>
                 My name is <br>
                 Matt <span class="thin">Lopez</span>
-            </h1>
+            </h2>
         </div>
+        <!--        Matt Avatar image-->
+        <img class="avatar-img animated bounceInRight delay-2s slower" src="img/user-avatar.png" alt="">
 
 <!--Space Button Text-->
     <div class="btn-container">
         <!--    About me button-->
-        <div class="aboutme-box">
-            <img class="aboutMe-btn" src="img/futuristic-buttons/Texture/about-me.png" alt="">
-            <p class="btn-aboutMe"><i class="fas fa-chevron-left"></i> ABOUT ME <i class="fas fa-chevron-right"></i></p>
-        </div>
+        <a class="hvr-wobble-horizontal" href="https://www.google.com/">
+            <div class="aboutme-box animated bounceInDown delay-1s slower">
+                <img class="aboutMe-btn" src="img/futuristic-buttons/Texture/about-me.png" alt="">
+                <p class="btn-aboutMe"><i class="fas fa-chevron-left"></i> ABOUT ME <i class="fas fa-chevron-right"></i>
+                </p>
+            </div>
+        </a>
         <!--    Skills button-->
-        <div class="skills-box">
-            <img class="skills-btn" src="img/futuristic-buttons/Texture/about-me.png" alt="">
-            <p class="btn-skills"><i class="fas fa-chevron-left"></i> &nbsp; SKILLS &nbsp;<i class="fas fa-chevron-right"></i></p>
-        </div>
+        <a class="hvr-wobble-horizontal" href="https://www.google.com/">
+            <div class="skills-box animated bounceInDown delay-1s slower">
+                <img class="skills-btn" src="img/futuristic-buttons/Texture/about-me.png" alt="">
+                <p class="btn-skills"><i class="fas fa-chevron-left"></i> &nbsp; SKILLS &nbsp;<i
+                        class="fas fa-chevron-right"></i></p>
+            </div>
+        </a>
         <!--    Contact button-->
-        <div class="contact-box">
-            <img class="contact-btn" src="img/futuristic-buttons/Texture/about-me.png" alt="">
-            <p class="btn-contact"><i class="fas fa-chevron-left"></i>  CONTACT <i class="fas fa-chevron-right"></i></p>
-        </div>
+        <a class="hvr-wobble-horizontal" href="https://www.google.com/">
+            <div class="contact-box animated bounceInDown delay-1s slower">
+                <img class="contact-btn" src="img/futuristic-buttons/Texture/about-me.png" alt="">
+                <p class="btn-contact"><i class="fas fa-chevron-left"></i> CONTACT <i class="fas fa-chevron-right"></i>
+                </p>
+            </div>
+        </a>
         <!--    Portfolio button-->
-        <div class="portfolio-box">
-            <img class="portfolio-btn" src="img/futuristic-buttons/Texture/about-me.png" alt="">
-            <p class="btn-portfolio"><i class="fas fa-chevron-left"></i>  PORTFOLIO <i class="fas fa-chevron-right"></i></p>
-        </div>
+        <a class="hvr-wobble-horizontal" href="https://www.google.com/">
+            <div class="portfolio-box animated bounceInDown delay-1s slower">
+                <img class="portfolio-btn" src="img/futuristic-buttons/Texture/about-me.png" alt="">
+                <p class="btn-portfolio"><i class="fas fa-chevron-left"></i> PORTFOLIO <i
+                        class="fas fa-chevron-right"></i></p>
+            </div>
+        </a>
     </div>
 
 
 
-
-<!--    </section>-->
-
-<!--    Right Section-->
-<!--    <section class="right-section">-->
-        <img class="avatar-img" src="img/user-avatar.png" alt="">
-
-<!--        <div id="title"></div>-->
-<!--    </section>-->
 </main>
 
 
@@ -90,7 +103,7 @@
 <script src="https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/EasePack.min.js"></script>
 <script src="https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/rAF.js"></script>
 <script src="https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/TweenLite.min.js"></script>
-<script src="animated-abstract.js"></script>
+<script src="js/animated-abstract.js"></script>
 
 </body>
 </html>

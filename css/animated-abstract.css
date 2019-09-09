@@ -11,7 +11,7 @@
 
 #large-header {
     /*background-image: url('https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/img/demo-1-bg.jpg');*/
-    background-image: url("img/moonToEarthView_burned-3.png");
+    background-image: url("../img/moonToEarthView_burned-3.png");
     filter: contrast(95%);
 }
 
